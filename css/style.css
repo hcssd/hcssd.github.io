@@ -228,6 +228,7 @@ body {
   line-height: 20px;
   color: #ffff00;
   background-color: #000000;
+  padding-top: 80;
 }
 
 a {
@@ -4354,9 +4355,8 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar {
-  *position: relative;
   *z-index: 2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: visible;
 }
 
@@ -4371,7 +4371,7 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, #000000, #000000);
   background-image: linear-gradient(to bottom, #000000, #000000);
   background-repeat: repeat-x;
-  border: 1px solid #000000;
+  border: 1px solid #1f98ad;
   -webkit-border-radius: none;
      -moz-border-radius: none;
           border-radius: none;
@@ -4425,12 +4425,12 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-link {
-  color: #00ff00;
+  color: #41bdce;
 }
 
 .navbar-link:hover,
 .navbar-link:focus {
-  color: #333333;
+  color: #38aa97;
 }
 
 .navbar .divider-vertical {
@@ -6206,7 +6206,7 @@ blink {
 
 body {
   -webkit-font-smoothing: none;
-  background: #0000ff url('../img/microfab.gif') top left;
+  background: #0000ff top left;
 }
 
 .navbar {
@@ -6217,7 +6217,7 @@ body {
 }
 
 .navbar-inner {
-  background: #000000 url('../img/stars.gif') top left;
+  background: #000000 top left;
   border-bottom: 1px solid #D4D0C8;
 }
 
