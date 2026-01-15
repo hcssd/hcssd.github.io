@@ -1,3 +1,11 @@
+.buddies {
+  padding-right: 25px;
+  margin-top:3px;
+  background-color: #575757;
+  width: 48px;
+  height: 48px;
+}
+
 .scrolling {
   width: 50%;
   overflow:visible;
@@ -289,7 +297,7 @@ a:focus {
 [class*="span"] {
   float: left;
   min-height: 1px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .container,
@@ -3108,7 +3116,7 @@ table th[class*="span"],
 
 .well {
   min-height: 20px;
-  padding: 19px;
+  padding: 22px;
   margin-bottom: 20px;
   background-color: #000000;
   border: 1px solid #000000;
@@ -3966,6 +3974,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav > .pull-right {
   float: right;
+  background-color: #999999;
 }
 
 .nav-header {
@@ -6230,6 +6239,7 @@ body {
 
 .btn {
   border: 6px ridge #bbbbbb;
+  background-image: url('../images/menu_background.gif');
 }
 
 .btn-primary {
