@@ -278,7 +278,7 @@ a:focus {
 .row:before,
 .row:after {
   display: table;
-  line-height: 0;
+  line-height: 1;
   content: "";
 }
 
