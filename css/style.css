@@ -5,7 +5,10 @@
   width: 48px;
   height: 48px;
 }
-
+.stinky {
+  width: 300px;
+  height: 300px
+}
 .scrolling {
   width: 50%;
   overflow:visible;
@@ -236,6 +239,7 @@ textarea {
 }
 
 body {
+  background-image: url('../images/background2.gif');
   margin: 0;
   font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
   font-size: 16px;
@@ -6218,11 +6222,6 @@ blink {
       -ms-animation: blink 1s linear infinite;
        -o-animation: blink 1s linear infinite;
           animation: blink 1s linear infinite;
-}
-
-body {
-  -webkit-font-smoothing: none;
-  background: #0000ff top left;
 }
 
 .navbar {
