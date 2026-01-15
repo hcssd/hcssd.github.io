@@ -1,3 +1,19 @@
+.scrolling {
+  width: 50%;
+  overflow:visible;
+  white-space: nowrap;
+  animation: scroll-left 18s linear infinite;
+  color:#2ab8ca;
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+
+@keyframes scroll-left {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -2028,7 +2044,7 @@ table {
 }
 
 .table .table {
-  background-color: #0000ff;
+  background-color: #000000;
 }
 
 .table-condensed th,
@@ -2136,7 +2152,7 @@ table {
 
 .table-hover tbody tr:hover > td,
 .table-hover tbody tr:hover > th {
-  background-color: #0000ff;
+  background-color: #000000;
 }
 
 table td[class*="span"],
@@ -4345,6 +4361,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar {
+  position:relative;
   *z-index: 2;
   margin-bottom: 10px;
   overflow: visible;
@@ -4354,7 +4371,7 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #000000;
+  background-color: #4747478f;
   background-image: -moz-linear-gradient(top, #000000, #000000);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
   background-image: -webkit-linear-gradient(top, #000000, #000000);
@@ -6288,7 +6305,7 @@ legend {
 
 .hero-unit,
 .well {
-  background: #000000 url('../img/stars.gif') top left;
+  background: #000000 url('../images/200w.gif') top left;
 }
 
 .breadcrumb {
