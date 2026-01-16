@@ -1,13 +1,14 @@
 <html>
 <head>
     <title>HCSSD 1.0</title>
-    <!--are you....looking for something?..-->
+    <!--are you looking for something?..-->
+    <script src="js/scrips.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQQS8T48DV"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-JQQS8T48DV');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JQQS8T48DV');
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
@@ -68,6 +69,19 @@
         <div class="container">
         <div class="row">
             <img src="images/jammin.gif" class="pull-right">
+            </div></div>
+        <div class="container">
+        <div class="row">
+            <div class="span5">
+                <h2>generate a new me</h2>
+                <button type="submit" class="btn btn-primary" onclick="name_gen(false)">generate</button>
+                <p id="name_results_me"></p>
+            </div>
+            <div class="span5">
+                <h2>generate a new you?</h2>
+                <button type="submit" class="btn btn-primary" onclick="name_gen(true)">generate</button>
+                <p id="name_results_you"></p>
+            </div>
             </div></div>
     </div>
 </body>

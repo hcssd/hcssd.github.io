@@ -321,6 +321,7 @@ a:focus {
 
 .span10 {
   width: 780px;
+  border: solid 1px white;
 }
 
 .span9 {
@@ -3369,14 +3370,12 @@ input[type="button"].btn-block {
 
 .btn-primary {
   color: #ffffff;
+  text-align: center;
+  margin:auto;
+  background-image: url('../images/menu_background.gif');
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #00eeee;
   *background-color: #00eeee;
-  background-image: -moz-linear-gradient(top, #00eeee, #00eeee);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00eeee), to(#00eeee));
-  background-image: -webkit-linear-gradient(top, #00eeee, #00eeee);
-  background-image: -o-linear-gradient(top, #00eeee, #00eeee);
-  background-image: linear-gradient(to bottom, #00eeee, #00eeee);
   background-repeat: repeat-x;
   border-color: #00eeee #00eeee #00a1a2;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
