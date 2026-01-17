@@ -7,6 +7,8 @@ let tries = 0;
 
 let a = [];
 const b = "9x7n45mm9xjd69420";
+const d = "6942069420694206942069420p";
+let googleanalytics = 0;
 
 function randomWord(arr) {
     let length_of_arr = arr.length
@@ -22,6 +24,9 @@ function someoneelse() {
 
 function nslkds() {
     window.open(sc+b);
+};
+function n3333333() {
+    window.open(sc+d);
 };
 
 function one(val) {
@@ -70,4 +75,36 @@ function name_gen(choice) {
     };
 
     return output
+};
+
+function t() {
+    console.log(googleanalytics)
+    googleanalytics += 1;
+
+    if (googleanalytics === 1) {
+        const ga1 = document.getElementById('ga1');
+        ga1.src="../images/img/3.png";
+    };
+    if (googleanalytics === 2) {
+        const ga2 = document.getElementById('ga2');
+        ga2.src="../images/img/4.png";
+    };
+    if (googleanalytics === 3) {
+        const ga3 = document.getElementById('ga3');
+        ga3.src="../images/img/5.png";
+    };
+    if (googleanalytics === 4) {
+        const ga4 = document.getElementById('ga4');
+        ga4.textContent="i used to be someone else";
+    };
+    if (googleanalytics === 6) {
+        const ga5 = document.getElementById('ga5');
+        ga5.textContent="i think this is them?";
+    };
+    if (googleanalytics === 8) {
+        const ga6 = document.getElementById('ga6');
+        ga6.innerHTML="i think they deserved it. what do you think?";
+        const ga7 = document.getElementById('ga7');
+        ga7.innerHTML = "<button class='btn btn-primary' type='button' onclick='n3333333()''>they probably deserved it</button>"
+    };
 };

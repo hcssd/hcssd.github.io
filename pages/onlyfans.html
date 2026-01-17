@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>HCSSD 1.0</title>
+    <script src="../js/scrips.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQQS8T48DV"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -14,7 +15,7 @@
     <style>
     </style>
 </head>
-<body>
+<body class="start">
      <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
@@ -29,7 +30,7 @@
                 <ul class="nav" id="main-menu-left">
                     <li>
                         <a class="btn btn-inverse" href="/">home</a>
-                    </li>
+                    </li> 
                     <li>
                         <a class="btn btn-inverse" target="_blank" rel="noopener noreferrer" href="https://helicoptercrashscenestuntdouble.bandcamp.com/">bandcamp</a>
                     </li>
@@ -37,7 +38,7 @@
                         <a class="btn btn-inverse" target="_blank" rel="noopener noreferrer"href="https://www.instagram.com/helicoptercrashscenestuntdub/">insta</a>
                     </li>
                     <li>
-                        <a class="btn btn-inverse" href="pages/onlyfans.html">onlyfans</a>
+                        <a class="btn btn-inverse" onclick="t()">onlyfans</a>
                     </li>
                 </ul>
                     <table cellpadding="1" cellspacing="1" class="nav pull-right" id="buddies">
@@ -61,9 +62,24 @@
             </div><br>
         </div></div>
     <div class="container">
-        <img class='img-polaroid stinky' src="../images/kittenedcat.jpg" width="300" height="300">
-        <img class='img-polaroid stinky' src="../images/dawg.png" width="300" height="400">
-        <img class='img-polaroid stinky' src="../images/rok.jpg" width="300" height="400">
+        <img class='img-polaroid stinky' src="../images/kittenedcat.jpg" id="ga1" width="300" height="300">
+        <img class='img-polaroid stinky' src="../images/dawg.png" id="ga2"  width="300" height="400">
+        <img class='img-polaroid stinky' src="../images/rok.jpg" id="ga3"  width="300" height="400">
+    </div>
+    <div class="row-fluid text-center">
+        <br>
+        <small id="ga4"></small>
+    </div>
+    <div class="row-fluid text-center">
+        <br>
+        <small id="ga5"></small>
+    </div>
+    <div class="row-fluid text-center">
+        <br>
+        <small id="ga6"></small>
+    </div>
+    <div class="row-fluid text-center" id="ga7">
+        <br>
     </div>
     </div>
 </body>
