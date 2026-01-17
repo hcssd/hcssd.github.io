@@ -1,3 +1,6 @@
+.start {
+  background-image: url('../images/background3.gif');
+}
 .txt_sex {
   text-align: center;
 }
@@ -12,6 +15,14 @@
   width: 300px;
   height: 300px
 }
+
+.se {
+  text-align: center;
+  vertical-align: center;
+  width: 500px;
+  height: 320px;
+}
+
 .scrolling {
   width: 50%;
   overflow:visible;
@@ -434,8 +445,19 @@ a:focus {
   margin-left: 100px;
 }
 
-.row-fluid {
+.row-wait {
   width: 100%;
+  min-height: 50px;
+  *zoom: 1;
+  border: dotted 1px teal;
+  text-align: center;
+}
+
+.row-fluid {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  min-height: 30px;
   *zoom: 1;
 }
 
@@ -454,7 +476,7 @@ a:focus {
   display: block;
   float: left;
   width: 100%;
-  min-height: 30px;
+  min-height: 50px;
   margin-left: 2.127659574468085%;
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
