@@ -32,7 +32,7 @@ function one(val) {
 
     if (JSON.stringify(a) === JSON.stringify(chk)) {
         const one = document.getElementById('q');
-        one.innerHTML = "<button class='btn btn-primary' type='button' onclick='nslkds()''>if you insist</button>";
+        one.innerHTML = "<button class='btn btn-primary' type='button' onclick='nslkds()''>are you still YOU?</button>";
     };
 
     if (a.length >= 6 & a != chk){
