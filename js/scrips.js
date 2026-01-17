@@ -6,8 +6,8 @@ const nouns = ['ATM', 'CD', 'SUV', 'TV', 'aardvark', 'abacus', 'abbey', 'abbrevi
 let tries = 0;
 
 let a = [];
-const b = "9x7n45mm9xjd69420";
-const d = "6942069420694206942069420p";
+const b = "25eYnsXV1AQVuDc4BJ";
+const d = "XyZpBt95IRy71PYh6X";
 let googleanalytics = 0;
 
 function randomWord(arr) {
@@ -16,7 +16,7 @@ function randomWord(arr) {
     return word.charAt(0).toUpperCase() + word.slice(1);
 };
 
-const sc = 'https://soundcloud.com/helicoptercrashsceneca/'
+const sc = 'https://on.soundcloud.com/'
 
 function someoneelse() {
     window.location.href = "pages/someoneelse.html";
