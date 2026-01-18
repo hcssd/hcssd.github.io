@@ -103,7 +103,7 @@ function t() {
     };
     if (googleanalytics === 8) {
         const ga6 = document.getElementById('ga6');
-        ga6.innerHTML="i think they deserved it. what do you think?";
+        ga6.innerHTML="sometimes you gotta do what you gotta do";
         const ga7 = document.getElementById('ga7');
         ga7.innerHTML = "<button class='btn btn-primary' type='button' onclick='n3333333()''>they probably deserved it</button>"
     };
