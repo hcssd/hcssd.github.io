@@ -8,7 +8,7 @@ let tries = 0;
 let a = [];
 const b = "XNbP0rQ23bQo7uWfXx";
 const d = "lGduhV9Wg3EQwrvGN7";
-const ed = "Zy2YDCLbss5atNqbCz"
+const e = "Zy2YDCLbss5atNqbCz";
 
 let googleanalytics = 0;
 
