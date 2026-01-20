@@ -8,6 +8,7 @@ let tries = 0;
 let a = [];
 const b = "25eYnsXV1AQVuDc4BJ";
 const d = "XyZpBt95IRy71PYh6X";
+
 let googleanalytics = 0;
 
 function randomWord(arr) {
@@ -37,7 +38,7 @@ function one(val) {
 
     if (JSON.stringify(a) === JSON.stringify(chk)) {
         const one = document.getElementById('q');
-        one.innerHTML = "<button class='btn btn-primary' type='button' onclick='nslkds()''>are you still YOU?</button>";
+        one.innerHTML = "<button class='win-button center-full' type='button' onclick='nslkds()''>have you changed at all?</button>";
     };
 
     if (a.length >= 6 & a != chk){
@@ -56,10 +57,10 @@ function name_gen(choice) {
         document.getElementById("name_results_you").innerHTML = output;
 
         if (tries >= 5) {
-            document.getElementById("x").innerHTML = "you click.. and yet, you are still the same. interesting.";
+            document.getElementById("x").innerHTML = "you look the same to me. do you feel any different?";
             if (tries >=10) {
                 const y = document.getElementById('y');
-                y.innerHTML = "<button class='btn btn-primary' type='button' onclick='someoneelse()''>make me someone else</button>"
+                y.innerHTML = "<button class='win-button' type='button' onclick='someoneelse()''>make me someone else</button>"
 
             };
         };
@@ -105,6 +106,6 @@ function t() {
         const ga6 = document.getElementById('ga6');
         ga6.innerHTML="sometimes you gotta do what you gotta do";
         const ga7 = document.getElementById('ga7');
-        ga7.innerHTML = "<button class='btn btn-primary' type='button' onclick='n3333333()''>they probably deserved it</button>"
+        ga7.innerHTML = "<button class='win-button center-split' type='button' onclick='n3333333()''>they probably deserved it</button>"
     };
 };
