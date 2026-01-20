@@ -185,6 +185,10 @@ h5 {
     content: "";
 }
 
+.genback {
+    background-image: url("../images/background3.gif");
+}
+
 .gen-results {
     margin:1px 1px 1px 1px;
     border: 1px solid greenyellow;
