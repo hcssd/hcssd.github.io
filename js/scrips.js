@@ -6,8 +6,9 @@ const nouns = ['ATM', 'CD', 'SUV', 'TV', 'aardvark', 'abacus', 'abbey', 'abbrevi
 let tries = 0;
 
 let a = [];
-const b = "25eYnsXV1AQVuDc4BJ";
-const d = "XyZpBt95IRy71PYh6X";
+const b = "XNbP0rQ23bQo7uWfXx";
+const d = "lGduhV9Wg3EQwrvGN7";
+const ed = "Zy2YDCLbss5atNqbCz"
 
 let googleanalytics = 0;
 
