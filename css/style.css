@@ -145,7 +145,7 @@ h5 {
 }
 
 .center {
-    width: 75%;
+    width: 80%;
     background-image: url("../images/container.png");
     text-align: center;
     border: 1px solid aqua;
@@ -153,7 +153,7 @@ h5 {
 }
 
 .right {
-    max-width: 25%;
+    max-width: 20%;
     align-items: center;
     justify-content: center;
     border: 1px solid aqua;
@@ -217,7 +217,7 @@ h5 {
 @media (max-width: 768px) {
     .page {
         width: 100%;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
     }
 
     .left,
@@ -305,4 +305,38 @@ blink {
     word-break:keep-all;
     overflow:visible;
     font-size: 1.8vw;
+}
+
+/*guestbook table*/
+
+.guestbook {
+    min-width: 100%;
+    background-color: #000;
+    border: 1px solid beige;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.entry {
+    min-height:100px;
+    border-bottom: solid 1px beige;
+}
+
+.user-photo {
+    max-height: 100px;
+    width: 100px;
+    border-right: beige 2px solid;
+}
+
+.message{
+    text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    min-width: 100%;
+    height:100px;
+}
+
+.message-line{
+    text-align: left;
+    min-width: 100%;
 }
