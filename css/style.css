@@ -344,3 +344,10 @@ blink {
     text-align: left;
     min-width: 100%;
 }
+
+hr.dashed {
+  border: none;
+  border-top: 2px dashed #333; /* Adjust thickness, style, and color */
+  height: 0;
+  margin: 20px 0;
+}
